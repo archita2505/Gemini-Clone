@@ -112,7 +112,7 @@ const Main = () => {
     <div className='main'>
       <div className="nav">
         <p>Gemini</p>
-        <img src={assets.user_icon} alt="" />
+        <img src={assets.user_icon} alt="Archita's profile" />
       </div>
       <div className="main-container">
 
@@ -144,7 +144,7 @@ const Main = () => {
           {messages.map((message, index) => (
             <div className="conversation-turn" key={`${index}-${message.prompt}`}>
               <div className="result-title">
-                <img src={assets.user_icon} alt="" />
+                <img src={assets.user_icon} alt="Archita's profile" />
                 <p>{message.prompt}</p>
               </div>
               {message.image && (

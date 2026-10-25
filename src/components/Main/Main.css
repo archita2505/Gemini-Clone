@@ -17,6 +17,14 @@
 .main .nav img{
     width :50px;
     border-radius: 50%;
+    object-fit: cover;
+}
+
+.result-title img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .main-container{
@@ -340,3 +348,20 @@ html[data-theme="dark"] .voice-status{
 html[data-theme="dark"] .response-text{
     color: #e3e3e3;
 }
+
+@media (max-width: 600px){
+    .main-bottom input{
+        flex: none;
+        width: 150px;
+    }
+    .main-bottom img{
+        width: 20px;
+    }
+    .search-box{
+        padding: 5px 10px;
+    }
+    .search-box div{
+        gap: 5px;
+    }
+}
+    
