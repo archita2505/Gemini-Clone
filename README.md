@@ -79,19 +79,11 @@ The default model is `gemini-3.1-flash-lite`. You can change it with the `GEMINI
 
 ## Screenshots
 
-Screenshots are not currently included in the repository. Add genuine screenshots of the running application to `docs/images/`, then embed them here. Suggested screenshots:
-
-- Main screen with suggested prompts
-- Chat conversation showing a generated response
-- Sidebar showing recent prompts
-- Settings panel with light and dark theme options
-- Image or voice input (if you want to demonstrate these features)
-
-For example, after adding a screenshot at `docs/images/main-screen.png`, embed it with:
-
-```markdown
 ![Gemini Clone main screen](docs/images/main-screen.png)
-```
+
+![AI Chat Response](docs/images/chat-response.png)
+
+![Settings & Themes](docs/images/settings.png)
 
 ## Project Structure
 
