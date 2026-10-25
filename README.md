@@ -79,10 +79,13 @@ The default model is `gemini-3.1-flash-lite`. You can change it with the `GEMINI
 
 ## Screenshots
 
+### Main Screen
 ![Gemini Clone main screen](docs/images/main-screen.png)
 
-![AI Chat Response](docs/images/chat-response.png)
+### AI Chat Response
+![Gemini Clone chat response](docs/images/chat-response.png)
 
+### Settings and Themes
 ![Settings & Themes](docs/images/settings.png)
 
 ## Project Structure
