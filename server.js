@@ -75,12 +75,12 @@ const server = createServer(async (request, response) => {
       !image
       || typeof image.data !== 'string'
       || !/^[A-Za-z0-9+/]+={0,2}$/.test(image.data)
-      || image.data.length > 7_000_000
+      || image.data.length > 4_200_000
       || typeof image.mimeType !== 'string'
       || !allowedImageTypes.has(image.mimeType)
     )) {
       response.writeHead(400).end(JSON.stringify({
-        error: 'Attach a valid JPEG, PNG, WebP, or GIF image no larger than 5 MB.',
+        error: 'Attach a valid JPEG, PNG, WebP, or GIF image no larger than 3 MB.',
       }));
       return;
     }

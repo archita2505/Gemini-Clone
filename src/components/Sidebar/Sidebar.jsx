@@ -138,7 +138,7 @@ const Sidebar = () => {
                                 </article>
                                 <article>
                                     <h3>Upload an image</h3>
-                                    <p>Select the gallery icon to attach one JPEG, PNG, WebP, or GIF image up to 5 MB. Add a question or send it for a description.</p>
+                                    <p>Select the gallery icon to attach one JPEG, PNG, WebP, or GIF image up to 3 MB. Add a question or send it for a description.</p>
                                 </article>
                                 <article>
                                     <h3>Use voice input</h3>

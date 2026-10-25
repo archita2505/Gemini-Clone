@@ -24,8 +24,8 @@ const Main = () => {
       setVoiceError("Choose a JPEG, PNG, WebP, or GIF image.");
       return;
     }
-    if (file.size > 5 * 1024 * 1024) {
-      setVoiceError("Images must be 5 MB or smaller.");
+    if (file.size > 3 * 1024 * 1024) {
+      setVoiceError("Images must be 3 MB or smaller.");
       return;
     }
 
